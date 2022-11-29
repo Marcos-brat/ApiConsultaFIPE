@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8D8E4"
+    android:orientation="vertical"
+    tools:context=".selecao_carros">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione a Marca:" />
+
+    <Spinner
+        android:id="@+id/spMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione o Modelo:" />
+
+    <Spinner
+        android:id="@+id/spModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione o Ano:" />
+
+    <Spinner
+        android:id="@+id/spAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Dados" />
+
+    <TextView
+        android:id="@+id/tvDadosVeiculo"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:text="Dados do veiculo" />
+
+    <Button
+        android:id="@+id/btForcar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forçar Carregamento" />
+</LinearLayout>
